@@ -71,6 +71,7 @@ object-fit: cover;
 }
 .details-text{
     margin-top: 20px;
+    font-size: small;
 }
 .details-container{
     margin-top: 20px;
@@ -86,7 +87,11 @@ object-fit: cover;
     flex-direction: column;
     width: 45%;
 }
-
+.info-text{
+    margin-top: 20px;
+    font-size: small;
+    font-weight: 200;
+}
 .extras-main-container {
 
     margin-top: 20px;
@@ -108,4 +113,5 @@ object-fit: cover;
 }
 .extra-text-sub-item{
     margin-top: 15px;
+    font-size: small;
 }

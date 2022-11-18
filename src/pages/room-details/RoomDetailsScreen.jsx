@@ -63,19 +63,19 @@ function RoomDetailsScreen() {
                     <div className='info-container'>
                         
                         <h3>Information : </h3>
-                        <text className='details-text'>
+                        <text className='info-text'>
                             Price : $100
                         </text>
 
-                        <text className='details-text'>
+                        <text className='info-text'>
                             Size : 200 SQFT
                         </text>
 
-                        <text className='details-text'>
+                        <text className='info-text'>
                             Max Capacity : 1 Person
                         </text>
 
-                        <text className='details-text'>
+                        <text className='info-text'>
                             No Pets Allowed
                         </text>
 
@@ -113,7 +113,6 @@ function RoomDetailsScreen() {
 
         </div>
 
-
         <Footer/>
 
     </div>
@@ -122,10 +121,3 @@ function RoomDetailsScreen() {
 
 
 export default RoomDetailsScreen
-
-
-
-            
-{/* <img className='row-img' src={Details2} alt="beach-resort img" />
-<img className='row-img' src={Details3} alt="beach-resort img" />
-<img className='row-img' src={Details4} alt="beach-resort img" /> */}
