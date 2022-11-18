@@ -1,0 +1,77 @@
+.card-clum{
+    position: relative;
+}
+.home-card-trans-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 25%;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.553);
+}
+.home-card-room-button{
+    padding: 10px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(180, 133, 99);
+}
+.home-card-room-rate{
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.home-main-logo{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.home-bar{
+    height: 5px;
+    width: 140px;
+    margin-top: 15px;
+    background-color: rgb(180, 133, 99);
+}
+.searvice-featured-bar {
+    height: 5px;
+    width: 70px;
+    margin-top: 15px;
+    background-color: rgb(180, 133, 99);
+}
+.service-container{
+    background-color: rgb(228, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    margin-top: 15px;
+}
+
+.feature-room-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin-top: 75px;
+   justify-content: center;
+   align-items: center;
+}
+
+.home-card-container{
+    margin-top: 50px;
+    display: flex;
+   flex-direction: row;
+}

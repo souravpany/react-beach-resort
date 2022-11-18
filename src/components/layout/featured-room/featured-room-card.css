@@ -1,0 +1,32 @@
+.card-main-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.card-featured-clum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+    position: relative;
+}
+.card-featured-img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.item-text{
+    width:100%;
+    font-size: small;
+    color: white;
+    position: absolute;
+    bottom:0;
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}

@@ -1,0 +1,27 @@
+.navbar{
+    height: 50px;
+    background-color: #f4f6f9;
+    display: flex;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 200px;
+    width: 200px; 
+}
+.navTextContainer {
+    margin-left: 60px;
+}
+.navText{
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #020913;
+    color: inherit;
+    text-decoration: inherit;
+}
