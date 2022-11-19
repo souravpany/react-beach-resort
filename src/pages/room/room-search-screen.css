@@ -1,9 +1,14 @@
-.search-room-top-section{
+.search-room-img-section{
     width: 100%;
     position: relative;
 }
 
-.card-trans-container{
+.search-room-logo-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.seach-room-img-middle-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,29 +17,22 @@
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 30%;
+    height: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.553);
     font-size: 25px;
     color: white;
 }
 
-.search-room-main-logo{
-    width: inherit;
-    height: 600px;
-    object-fit: cover;
-}
-
-.card-trans-button{
+.seach-room-img-middle-section button {
     padding: 10px;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 35px;
     border: none;
-    cursor: pointer;
     background-color: rgb(180, 133, 99);
 }
 
-.line-bar{
+.seach-room-img-middle-section div {
     height: 5px;
     width: 20%;
     margin-top: 15px;
@@ -46,6 +44,13 @@
     width: 4%;
     margin-top: 20px;
     background-color: rgb(180, 133, 99);
+}
+
+.search-sub-middle-section-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .middle-section-container{
@@ -60,8 +65,15 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
+
+.card-image-container{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 
 .room-type-section{
     display: flex;
@@ -93,13 +105,4 @@ margin-top: 10px;
     border-radius: 5px;
     border-width: 1px;
     padding: 2px;
-}
-.card-image-container{
-    width: 57%;
-    margin-top: 60px;
-    text-align: center;
-    justify-content: flex-start;
-    display: flex;
-    padding: 15px;
-    flex-wrap: wrap;
 }
