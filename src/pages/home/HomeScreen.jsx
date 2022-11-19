@@ -10,31 +10,37 @@ import { homeRoomItems } from '../../data';
 function HomeScreen() {
   return (
     <>
-     <Navbar />
-     <div className='card-clum'>
-        <img className='home-main-logo' src={BCG2} alt="BCG2 Logo" />
-            <div className='home-card-trans-container'>
+      <Navbar/>
+        <div className='home-main'>
+        <img className='logo-image' src={BCG2} alt="banner Logo" />
+            
+            <div className='home-img-middle-section'>
+
                 <h1>Luxurious Rooms</h1>
-                <div className='home-bar'/>
-                <text className='home-card-room-rate'>Deluxe Rooms Starting At $299</text>
-                <button className='home-card-room-button'>OUR ROOMS</button>
+                <div/>
+                <p>Deluxe Rooms Starting At $299</p>
+                <button>OUR ROOMS</button>
+
             </div>
-      </div>
-      <div className='service-container'>
-        <h1 className='service-text'>Services</h1>
-        <div className='searvice-featured-bar'/>
-        <ServiceList/>
-      </div>
-      <div className='feature-room-container'>
-        <h1>Featured Rooms</h1>
-        <div className='searvice-featured-bar'/>
-        <div className='home-card-container'>
-              {homeRoomItems.map((item) =>
-                <FeaturedRoomCard item={item} key={item.id}/>
-              )}
+
         </div>
-      </div>
-     <Footer/>
+
+         <div className='home-services-container'>
+            <h1>Services</h1>
+            <div className='home-services-line-bar'/>
+            <ServiceList/>
+          </div>
+
+            <div className='home-feature-room-container'>
+                <h1>Featured Rooms</h1>
+                <div className='home-services-line-bar'/>
+                <div className='home-featured-img-card-container'>
+                      {homeRoomItems.map((item) =>
+                        <FeaturedRoomCard item={item} key={item.id}/>
+                      )}
+                </div>
+            </div>
+        <Footer/>
     </>
   )
 }

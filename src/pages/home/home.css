@@ -1,53 +1,57 @@
-.card-clum{
+.home-main{
+    width: 100%;
     position: relative;
 }
-.home-card-trans-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    flex-direction: column;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    height: 25%;
-    font-size: 25px;
-    color: white;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.553);
-}
-.home-card-room-button{
-    padding: 10px;
-    font-weight: 100;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: rgb(180, 133, 99);
-}
-.home-card-room-rate{
-    margin-top: 20px;
-    font-size: medium;
-}
 
-.home-main-logo{
-    width: 100%;
+.logo-image{
+    width: inherit;
     height: 900px;
     object-fit: cover;
 }
 
-.home-bar{
+.home-img-middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.553);
+    font-size: 25px;
+    color: white;
+}
+
+.home-img-middle-section h1 {
+    font-size: 65px;
+}
+
+.home-img-middle-section p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.home-img-middle-section div {
     height: 5px;
     width: 140px;
     margin-top: 15px;
     background-color: rgb(180, 133, 99);
 }
-.searvice-featured-bar {
-    height: 5px;
-    width: 70px;
-    margin-top: 15px;
+
+.home-img-middle-section button {
+    padding: 10px;
+    font-weight: 100;
+    margin-top: 35px;
+    border: none;
     background-color: rgb(180, 133, 99);
 }
-.service-container{
+
+
+.home-services-container{
     background-color: rgb(228, 224, 224);
     display: flex;
     flex-direction: column;
@@ -55,11 +59,18 @@
     align-items: center;
 }
 
-.service-text {
+.home-services-container h1 {
     margin-top: 15px;
 }
 
-.feature-room-container{
+.home-services-line-bar {
+    height: 5px;
+    width: 70px;
+    margin-top: 15px;
+    background-color: rgb(180, 133, 99);
+}
+
+.home-feature-room-container{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -70,7 +81,7 @@
    align-items: center;
 }
 
-.home-card-container{
+.home-featured-img-card-container{
     margin-top: 50px;
     display: flex;
    flex-direction: row;

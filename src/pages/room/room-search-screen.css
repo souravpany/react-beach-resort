@@ -1,4 +1,5 @@
 .search-room-top-section{
+    width: 100%;
     position: relative;
 }
 
@@ -6,20 +7,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
     flex-direction: column;
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 30%;
     height: 30%;
-    font-size: 25px;
-    color: white;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.553);
+    font-size: 25px;
+    color: white;
 }
 
 .search-room-main-logo{
-    width: 100%;
+    width: inherit;
     height: 600px;
     object-fit: cover;
 }

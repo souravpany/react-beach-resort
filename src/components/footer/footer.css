@@ -1,12 +1,14 @@
 .footer-container{
-    width: 100%;
-    margin-top: 20px;
+    text-align: center;
     background-color: #00040a;
     color: white;
-    padding: 30px;
-    display: flex;
-    font-size: small;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  }
+
+  .footer-container h1{
+    padding-top: 20px;
+  }
+
+  .footer-container p{
+    padding-bottom: 30px;
+    padding-top: 20px;
   }
