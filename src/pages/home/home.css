@@ -53,11 +53,16 @@ header {
 
 .services {
     width: 100vw;
-    margin: 20px auto;
+    height: 35vh;
+    background-color: rgb(201, 197, 197);
 }
 .home-services-title {
     text-align: center;
     font-size: 2vmin;
+}
+
+.home-services-title h1 {
+    padding-top: 20px;
 }
 
 .home-services-line-bar{
@@ -65,6 +70,10 @@ header {
     height: 4px;
     background-color: rgb(180, 133, 99);
     margin: 15px auto;
+}
+
+.home-services-service-list{
+    margin: 30px auto;
 }
 
 .featured{

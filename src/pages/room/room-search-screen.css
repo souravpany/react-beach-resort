@@ -1,77 +1,69 @@
-.search-room-img-section{
-    width: 100%;
-    position: relative;
-}
-
-.search-room-logo-img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.seach-room-img-middle-section{
+.room-search-header {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../../assets/img/jpeg/room-2.jpeg);
+    background-position: center;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 30%;
-    height: 20%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.room-search-header-content {
     background-color: rgba(0, 0, 0, 0.553);
-    font-size: 25px;
-    color: white;
+    width: 30vw;
+    height: 20vh;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.seach-room-img-middle-section button {
-    padding: 10px;
-    font-weight: 100;
-    margin-top: 35px;
+.room-search-header-content h1 {
+    font-size: 6vmin;
+}
+
+.room-search-line-bar {
+    width: 130px;
+    height: 4px;
+    background-color: rgb(180, 133, 99);
+    margin: 15px auto;
+}
+
+.room-search-button{
+    padding: 10px 15px;
     border: none;
-    background-color: rgb(180, 133, 99);
-}
-
-.seach-room-img-middle-section div {
-    height: 5px;
-    width: 20%;
     margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
     background-color: rgb(180, 133, 99);
 }
 
-.search-line-bar{
-    height: 5px;
-    width: 4%;
-    margin-top: 20px;
+/* == Search Room == */
+
+.search-room {
+    margin: 20px auto;
+}
+.search-room-title {
+    text-align: center;
+    font-size: 2vmin;
+}
+
+.search-room-line-bar{
+    width: 60px;
+    height: 4px;
     background-color: rgb(180, 133, 99);
+    margin: 15px auto;
 }
 
-.search-sub-middle-section-container{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    
-}
 
-.middle-section-container{
+.search-room-content{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
-}
-
-.middle-section-top-part{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.card-image-container{
-    margin-top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 
@@ -89,7 +81,7 @@ margin-top: 10px;
 .room-search-check-box{
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .check-box-section{
     flex-direction: row;
@@ -105,4 +97,32 @@ margin-top: 10px;
     border-radius: 5px;
     border-width: 1px;
     padding: 2px;
+}
+
+
+/* == Search Room Card with image == */
+
+.search-room-card-container{
+    margin : 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-room-card-content{
+    display: flex;
+    flex: 3;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-left-div{
+    display: flex;
+    flex: 1.1;
+}
+
+.card-right-div{
+    display: flex;
+    flex: 0.5;
 }

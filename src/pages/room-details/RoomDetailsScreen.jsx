@@ -21,23 +21,18 @@ function RoomDetailsScreen() {
       }, [params]);
 
   return (
-    <div>
+    <>
 
         <Navbar/>
 
         {/* Top section image with transparent overlapping box */}
-        <div className='room-details-top-section'>
-            <img className='room-details-main-logo' 
-            src={Room1} 
-            alt="Room1 Logo" />
-            <div className='room-details-card-trans-container'>
-            <h1>{params.room} Rooms</h1>
-            <div className='room-details-line-bar'></div>
-            <Link to='/search'>
-            <button className='room-details-card-trans-button'>BACK TO ROOMS</button>
-            </Link>
+        <header className='room-details-header'>
+            <div className='room-details-header-content'>
+                  <h1>{params.room} Rooms</h1>
+                  <div className='room-details-line-bar'/>
+                  <Link to='/search' className='room-details-home-button'>BACK TO ROOMS</Link>
             </div>
-        </div>
+        </header>
 
         {/* Middle section */}
         <div className='middle-section-container'>
@@ -115,7 +110,7 @@ function RoomDetailsScreen() {
 
         <Footer/>
 
-    </div>
+    </>
   )
 }
 

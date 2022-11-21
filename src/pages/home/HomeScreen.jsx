@@ -29,7 +29,11 @@ function HomeScreen() {
               <h1>Services</h1>
               <div className='home-services-line-bar'/>
             </div>
-            <ServiceList/>
+
+            <div className='home-services-service-list'>
+               <ServiceList/>
+            </div>
+            
         </section>
 
           <section className='featured'>

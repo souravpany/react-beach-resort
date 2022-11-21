@@ -21,7 +21,7 @@ export const homeRoomItems = [
     {
         id: 2,
         img: Room12,
-        title: "Fammily Deluxe",
+        title: "Family Deluxe",
     },
     {
         id: 3,
