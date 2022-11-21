@@ -69,7 +69,7 @@ function RoomSearchScreen() {
               {/* Room price */}
               <div className='room-type-section'>
                   <text>Room Price $600</text>
-                  <text className='title-text'>Rate View</text>
+                  <input type="range" min="1" max="100" value="50" className='title-text'/>
               </div>
                   
               {/* Room size */}
