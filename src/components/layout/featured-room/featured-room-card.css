@@ -25,24 +25,25 @@
 }
 
 .card-left-corner-content{
+    text-align: center;
     top: 10px;
     left: 10px;
     position: absolute;
-    height: 35px;
-    width: 65px;
-    padding: 7px;
     background-color: rgba(0, 0, 0, 0.749);
-    border-bottom-right-radius: 40%;
+    border-radius: 0px 0px 10px 0px;
 }
 
 .card-left-corner-content text {
-    font-size: medium;
+    font-size: 10px;
     font-weight: 400;
     color: whitesmoke;
-
+    padding: 5px 5px;
 }
 .card-left-corner-content p {
-    font-size: smaller;
+    font-size: 7px;
     color: whitesmoke;
     font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
