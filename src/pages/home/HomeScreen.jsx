@@ -6,40 +6,46 @@ import Footer from '../../components/footer/Footer';
 import FeaturedRoomCard from '../../components/layout/featured-room/FeaturedRoomCard';
 import { homeRoomItems } from '../../data';
 
+import {Link} from 'react-router-dom';
+
 
 function HomeScreen() {
   return (
     <>
+
       <Navbar/>
-        <div className='home-main'>
-        <img className='logo-image' src={BCG2} alt="banner Logo" />
-            
-            <div className='home-img-middle-section'>
 
-                <h1>Luxurious Rooms</h1>
-                <div/>
-                <p>Deluxe Rooms Starting At $299</p>
-                <button>OUR ROOMS</button>
-
+        <header>
+            <div className='header-content'>
+                  <h1>Luxurious Rooms</h1>
+                  <div className='line-bar'/>
+                  <p>Deluxe Rooms Starting At $299</p>
+                  <Link to='/' className='home-button'>OUR ROOMS</Link>
             </div>
+        </header>
 
-        </div>
-
-         <div className='home-services-container'>
-            <h1>Services</h1>
-            <div className='home-services-line-bar'/>
+        <section className='services'>
+            <div className='home-services-title'>
+              <h1>Services</h1>
+              <div className='home-services-line-bar'/>
+            </div>
             <ServiceList/>
-          </div>
+        </section>
 
-            <div className='home-feature-room-container'>
-                <h1>Featured Rooms</h1>
-                <div className='home-services-line-bar'/>
-                <div className='home-featured-img-card-container'>
+          <section className='featured'>
+
+               <div className='home-services-title'>
+                  <h1>Featured Rooms</h1>
+                  <div className='home-services-line-bar'/>
+              </div>
+                
+              <div className='home-featured-img-card-container'>
                       {homeRoomItems.map((item) =>
                         <FeaturedRoomCard item={item} key={item.id}/>
                       )}
                 </div>
-            </div>
+          </section>
+
         <Footer/>
     </>
   )

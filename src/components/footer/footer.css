@@ -1,14 +1,17 @@
 .footer-container{
+    width: 100%;
+    min-height: 150px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: black;
     text-align: center;
-    background-color: #00040a;
-    color: white;
-  }
+    color: whitesmoke;
+}
 
-  .footer-container h1{
-    padding-top: 20px;
-  }
+.footer-container h1{
+  margin: 20px auto;
+}
 
-  .footer-container p{
-    padding-bottom: 30px;
-    padding-top: 20px;
-  }
+.footer-container p{
+    margin: 20px auto;
+}
