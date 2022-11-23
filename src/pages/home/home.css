@@ -76,19 +76,22 @@ header {
     margin: 30px auto;
 }
 
+/* == Featured == */
+
 .featured{
    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
    flex-direction: column;
-   margin-top: 75px;
+   margin-top: 25px;
    justify-content: center;
    align-items: center;
 }
 
 .home-featured-img-card-container{
     margin-top: 50px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
 }
